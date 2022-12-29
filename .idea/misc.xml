@@ -11,6 +11,10 @@
         <entry key="..\:/Users/sharo/AndroidStudioProjects/MyFinalApplication/app/src/main/res/layout/activity_login.xml" value="0.25" />
         <entry key="..\:/Users/sharo/AndroidStudioProjects/MyFinalApplication/app/src/main/res/layout/activity_main.xml" value="0.264" />
         <entry key="..\:/Users/sharo/AndroidStudioProjects/MyFinalApplication/app/src/main/res/layout/activity_register.xml" value="0.2" />
+        <entry key="..\:/Users/sharo/AndroidStudioProjects/MyFinalApplication/app/src/main/res/layout/activity_updates_bo_association.xml" value="0.25" />
+        <entry key="..\:/Users/sharo/AndroidStudioProjects/MyFinalApplication/app/src/main/res/layout/activity_updates_board.xml" value="0.25" />
+        <entry key="..\:/Users/sharo/AndroidStudioProjects/MyFinalApplication/app/src/main/res/layout/dialog_add_update.xml" value="0.25" />
+        <entry key="..\:/Users/sharo/AndroidStudioProjects/MyFinalApplication/app/src/main/res/layout/update_row.xml" value="0.25" />
       </map>
     </option>
   </component>

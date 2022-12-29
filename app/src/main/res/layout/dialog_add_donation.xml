@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <EditText
+        android:id="@+id/etName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Name"
+        android:inputType="textPersonName"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <EditText
+        android:id="@+id/etCount"
+        android:layout_width="227dp"
+        android:layout_height="52dp"
+        android:layout_marginTop="52dp"
+        android:ems="10"
+        android:hint="Count"
+        android:inputType="numberDecimal"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/etName" />
+
+    <EditText
+        android:id="@+id/etLocation"
+        android:layout_width="227dp"
+        android:layout_height="52dp"
+        android:ems="10"
+        android:hint="Location"
+        android:textSize="18sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/etCount" />
+
+
+    <!--    <CheckBox-->
+<!--        android:id="@+id/checkBox"-->
+<!--        android:layout_width="242dp"-->
+<!--        android:layout_height="51dp"-->
+<!--        android:layout_marginTop="16dp"-->
+<!--        android:layout_marginEnd="168dp"-->
+<!--        android:text="Num1"-->
+<!--        android:textSize="18sp"-->
+<!--        app:layout_constraintEnd_toEndOf="parent"-->
+<!--        app:layout_constraintTop_toBottomOf="@+id/RbtnArea" />-->
+
+<!--    <CheckBox-->
+<!--        android:id="@+id/checkBox2"-->
+<!--        android:layout_width="243dp"-->
+<!--        android:layout_height="48dp"-->
+<!--        android:layout_marginEnd="164dp"-->
+<!--        android:text="Num2"-->
+<!--        android:textSize="18sp"-->
+<!--        app:layout_constraintEnd_toEndOf="parent"-->
+<!--        app:layout_constraintTop_toBottomOf="@+id/checkBox" />-->
+
+<!--    <CheckBox-->
+<!--        android:id="@+id/checkBox3"-->
+<!--        android:layout_width="269dp"-->
+<!--        android:layout_height="52dp"-->
+<!--        android:layout_marginEnd="140dp"-->
+<!--        android:text="Num3"-->
+<!--        android:textSize="18sp"-->
+<!--        app:layout_constraintEnd_toEndOf="parent"-->
+<!--        app:layout_constraintTop_toBottomOf="@+id/checkBox2" />-->
+
+<!--    <CheckBox-->
+<!--        android:id="@+id/checkBox4"-->
+<!--        android:layout_width="269dp"-->
+<!--        android:layout_height="58dp"-->
+<!--        android:layout_marginEnd="140dp"-->
+<!--        android:text="Num4"-->
+<!--        android:textSize="18sp"-->
+<!--        app:layout_constraintEnd_toEndOf="parent"-->
+<!--        app:layout_constraintTop_toBottomOf="@+id/checkBox3" />-->
+
+    <RadioGroup
+        android:id="@+id/RbtnArea"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="4dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/etLocation">
+
+        <RadioButton
+            android:id="@+id/RbtnCentral"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Central" />
+
+        <RadioButton
+            android:id="@+id/RbtnNorth"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="North" />
+
+        <RadioButton
+            android:id="@+id/RbtnSouth"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="South" />
+    </RadioGroup>
+
+    <Button
+        android:id="@+id/btnAdd"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Add"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/RbtnArea" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

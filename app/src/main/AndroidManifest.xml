@@ -10,6 +10,12 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.MyFinalApplication">
         <activity
+            android:name=".DonationsBoAssociation"
+            android:exported="false" />
+        <activity
+            android:name=".donationsBoard"
+            android:exported="false" />
+        <activity
             android:name=".HomePage"
             android:exported="false" />
         <activity

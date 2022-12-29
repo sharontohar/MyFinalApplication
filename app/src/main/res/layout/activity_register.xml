@@ -10,15 +10,7 @@
     android:background="@color/theme_color_40"
     tools:context=".RegisterActivity">
 
-    <ImageView
-        android:id="@+id/imageView"
-        android:layout_width="118dp"
-        android:layout_height="100dp"
-        android:gravity="center"
-        app:srcCompat="@drawable/register_pic" />
-
-
-    <EditText
+    <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:gravity="center"
@@ -26,7 +18,14 @@
         android:textAllCaps="true"
         android:textColor="#424242"
         android:textSize="20sp"
-        android:textStyle="bold" />
+        android:textStyle="bold"/>
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="118dp"
+        android:layout_height="100dp"
+        android:gravity="center"
+        app:srcCompat="@drawable/register_pic" />
 
     <EditText
         android:id="@+id/r_name"
